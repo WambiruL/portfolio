@@ -1,0 +1,163 @@
+body{
+    font-family: 'Miltonian Tattoo', cursive;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+nav{
+    background-color: orange;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+.rounded-circle{
+    width: 300px;
+    height: 300px;
+    margin-left: 550px;
+}
+marquee{
+    font-size: 40px;
+}
+.btn-hire{
+    margin-left: 400px;
+    width: 300px;
+    position: relative;
+    top: 45px;
+    border-radius: 50px;
+    outline: transparent;
+    background-color: transparent;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.btn-down{
+    margin-left: 750px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: transparent;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+button{
+    font-size: 30px;
+}
+button:hover{
+    background-color:white;
+}
+
+.jumbotron{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background:orange;
+}
+.intro{
+    margin-left: 500px;
+    width: 400px;
+    text-align: center;
+}
+.my-photo{
+    height: 440px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    left: 90px;
+    bottom: 20px;
+    filter: grayscale(100%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 5px 10px rgba(0, 0, 0, 0.23);
+    
+}
+.mimi{
+    text-align: justify;
+    margin-top: 100px;
+}
+.container{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 5px 10px rgba(0, 0, 0, 0.23);
+    border-radius: 100px;
+    
+   
+
+}
+h2{
+    text-align: center;
+}
+.skills-photo{
+    width: 200px;
+    height: 100px;
+}
+
+.col-md-8{
+    margin-left: 250px;
+}
+.img-fluid{
+    width: 1500px;
+    height: 500px;
+}
+.card-body{
+    width: 400px;
+    position: relative;
+    left: 350px;
+    height: 250px;
+    top: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-image: url('./Images/cardback.jpg');
+}
+.btn{
+    background-color: transparent;
+    color: black;
+    border-radius: 50px;
+    outline: transparent;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
+.footer{
+    background:linear-gradient(white,orange);
+    width: 100%;
+    font-weight: 900;
+}
+
+.my-5{
+    background-color: orange;
+}
+.btn-md:hover{
+    background-color: white;
+}
+.menu{
+    margin-left: 500px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.my-photo:hover {
+    filter: grayscale(0) opacity(1);
+  /*   box-shadow:  0px 8px 4px rgba(0, 0, 0, 0.3),
+                 0px 10px 2px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .my-photo::before,
+  .my-photo::after {
+    transform: scaleY(-1);
+  }
+  
+  .rounded-circle:hover {
+	transform: scale(1.2, 1.2);
+	z-index: 9;
+}
+  /* .my-photo:hover {
+	transform: scale(1.2, 1.2);
+	z-index: 9;
+} */
+.skills-photo:hover {
+	transform: scale(1.2, 1.2);
+	z-index: 9;
+}
+
+.container:hover {
+	transform: scale(1.2, 1.2);
+	z-index: 9;
+}
+
+.card-text{
+    font-size: 15px;
+}
