@@ -121,6 +121,7 @@ h2{
 }
 .btn-md:hover{
     background-color: white;
+    color: black;
 }
 .menu{
     margin-left: 500px;
